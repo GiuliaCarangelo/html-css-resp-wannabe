@@ -132,11 +132,22 @@ img {
     .container{
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 768px) {
     .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col{
         width: 100%;
     }
 }
