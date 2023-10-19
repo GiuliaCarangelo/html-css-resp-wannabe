@@ -143,11 +143,11 @@ img {
 @media screen and (max-width: 480px) {
     .container{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
-    .col{
+    .lessons .col{
+        flex-direction: column;
+        justify-content: center;
         width: 100%;
     }
 }
