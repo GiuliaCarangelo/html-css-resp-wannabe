@@ -143,11 +143,59 @@ img {
 @media screen and (max-width: 480px) {
     .container{
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 2rem 0;
     }
 
-    .lessons .col{
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
+    h1{
+        margin-bottom: 0;
     }
+
+    .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    h2{
+        width: 100%;
+        margin-bottom: 0;
+        padding-top: 1rem;
+    }
+
+    p.text{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .lessons .col {
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .steps .col {
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+}
+
+
+/* FIX CENTRATURA SECTION WHY-US */
+    .why-us .col {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2rem;
+}
+
+.col-right{
+    display: flex;
+}
+
+.col-right ul{
+    text-align: center;
+    width: 80%;
+}
+
 }
